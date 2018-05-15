@@ -1,0 +1,168 @@
+/* importando font do google */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+/* Cor do cabeçalho*/
+header {
+	background: #A968AF;
+}
+/* Modificando a altura da imagem do cabeçalho */
+header img {
+	width: 130px;
+}
+
+/* Menu*/
+header ul {
+	text-align: right;
+	margin-top: 10px;
+}
+header ul li{
+	display: inline-block;
+	margin:  10px 10px;
+}
+header ul li a{
+	color: #fff;
+	font-size: 16px;
+}
+header ul li a:hover{
+	text-decoration: none;
+	color: #FCE774;
+}
+
+.banner {
+	padding-top: 220px;
+	padding-bottom: 50px;
+	text-align: center;
+	background: url(../img/banner-header2.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.banner img {
+	width: 72px;
+}
+.banner h1 {
+	font-weight: 300;
+	font-size: 52px;
+	color: #fff;
+}
+.titulo {
+	padding-top: 130px;
+	text-align: center;
+}
+.titulo h2{
+	font-size: 48px;
+	font-weight: 300;
+	color: #A968AF;
+}
+.titulo p {
+	color: #8E8E8E;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 28px;
+	margin-top: 34px;
+	margin-bottom: 34px;
+}
+.titulo a{
+	color: #A968AF;
+	font-weight: bold;
+	font-size: 18px;
+}
+.titulo a:hover {
+	color: #693A6E;
+	text-decoration: none;
+}
+.fundo {
+	background: url(../img/padrao.png);  
+  
+}
+.fundo img {
+	padding-top: 148px;
+	padding-bottom: 100px;
+	width: 100%;
+
+}
+.al-esquerda {text-align: left ;}
+.al-direita {text-align: right ;}
+
+footer {
+	background-color: #A968AF;
+	height: 333px;
+	text-align: center;
+	color: #fff;
+}
+footer img {
+	padding-top: 54px;
+	width: 130px;
+}
+footer p {
+	color: #fff;
+	padding-top: 50px;
+}
+.creditos {
+	padding-top: 6px;
+	background-color: #815086;
+	text-align: center;
+	margin: 0 auto;	
+}
+.creditos p {
+	color: #C4ADC6;
+}
+.creditos p a {
+	color: #fff;
+}
+
+/**
+ * Sobre
+ */
+
+.titulo-meio {
+	text-align: center;
+}
+.titulo-meio h2 {
+	padding-top: 130px;
+	font-size: 48px;
+	font-weight: 300;
+	color: #A968AF;
+}
+.titulo-meio p {
+	padding-top: 22px;
+	color: #8E8E8E;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 28px;
+	text-align: center;
+	padding-bottom: 60px;
+}
+iframe {
+	margin-bottom: 128px;
+}
+.btn-doacao {
+	text-align: center;
+	margin-bottom: 200px;
+}
+form input {
+	margin-top: 20px;
+	border: 0.5px solid #A968AF;
+	width: 286px;
+	margin-left: 35px;
+}
+form textarea {
+	border: 0.5px solid #A968AF;
+	padding-bottom: 20px;
+	margin-left: 35px;
+}
+button {
+	margin-top: 20px;
+	margin-bottom: 200px;
+	background-color: #A968AF;
+	text-align: center;
+	width:286px;
+	height: 58px;
+	color: #fff;
+	border: none;
+	margin-left: 35px;
+}
