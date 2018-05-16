@@ -27,11 +27,18 @@ header ul li a{
 	color: #fff;
 	font-size: 16px;
 }
+header ul li a:.menu_ativo{
+	text-decoration: none;
+	color: #FCE774;
+}
 header ul li a:hover{
 	text-decoration: none;
 	color: #FCE774;
 }
-
+.menu_ativo {
+	color: #FCE774;
+	text-decoration: none;
+}
 .banner {
 	padding-top: 220px;
 	padding-bottom: 50px;
